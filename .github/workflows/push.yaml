@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: Artem-Sergeevi4/12-sprint-final-main
+          images: artemsergeevich/12-sprint-final-main
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
